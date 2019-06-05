@@ -1,0 +1,13 @@
+domain/Book.class
+rest/LibraryREST.class
+errorHandling/Pair.class
+dto/BookDTO.class
+domain/Category.class
+errorHandling/LibraryException.class
+results/BookResult.class
+rest/BookResource.class
+results/Result.class
+results/BooksResult.class
+results/BookCreateResult.class
+dao/BookDAO.class
+service/BookService.class
