@@ -25,8 +25,6 @@ public class BookResult extends Result {
 	}
 	
 	public BookResult(Pair<Integer, String> pair) {
-		//super(pair);
-		//this.book = null;
 		this(pair, null);
 	}
 	
@@ -35,7 +33,6 @@ public class BookResult extends Result {
 	}
 	
 	public BookResult(LibraryException ex) {
-		//this(ex.getError()); // preko konsturktora na liniji 27
 		this(ex.getError(), null);
 	}
 	

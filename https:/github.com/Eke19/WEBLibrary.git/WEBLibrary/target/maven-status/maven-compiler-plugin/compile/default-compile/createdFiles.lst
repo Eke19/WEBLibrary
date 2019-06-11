@@ -4,6 +4,7 @@ errorHandling/Pair.class
 dto/BookDTO.class
 domain/Category.class
 errorHandling/LibraryException.class
+soap/WebLibraryWS.class
 results/BookResult.class
 rest/BookResource.class
 results/Result.class
