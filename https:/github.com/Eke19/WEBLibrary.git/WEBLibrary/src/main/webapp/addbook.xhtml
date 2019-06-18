@@ -1,0 +1,33 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"      
+      xmlns:h="http://java.sun.com/jsf/html">
+      
+<h:head>
+	<title>Add book</title>
+</h:head>
+<h:body>
+	<h:form>
+		<h:panelGrid columns="2">
+			<h:outputLabel value="Author" />
+			<h:inputText value="#{addBookBean.bookDTO.author}" />
+			<h:outputLabel value="Title" />
+			<h:inputText value="#{addBookBean.bookDTO.title}" />
+			<h:outputLabel value="ISBN" />
+			<h:inputText value="#{addBookBean.bookDTO.isbn}" />
+			<h:outputLabel value="Category" />
+			<h:selectOneMenu value="#{addBookBean.bookDTO.category}">
+				<f:selectItems value="#{addBookBean.bookDTO.categories}" var="c">
+					<f:selectItem value="#{c.name()}"/>
+				</f:selectItems>
+			</h:selectOneMenu>
+			<h:outputLabel value="Description" />
+			<h:inputTextarea value="#{addBookBean.bookDTO.description}" />
+		</h:panelGrid>
+		<h:commandButton action="#{addBookBean.createBook()}" value="Save..." />
+	</h:form>
+	
+	<h:link outcome="listbook" value="List books..."/>
+
+</h:body>
+
+</html>
