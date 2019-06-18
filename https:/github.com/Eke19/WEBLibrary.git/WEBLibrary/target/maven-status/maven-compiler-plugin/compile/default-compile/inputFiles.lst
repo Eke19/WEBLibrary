@@ -1,11 +1,13 @@
 /home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/results/BookResult.java
 /home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/errorHandling/Pair.java
+/home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/web/ListBookBean.java
 /home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/service/BookService.java
 /home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/results/BooksResult.java
 /home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/domain/Category.java
 /home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/dao/BookDAO.java
 /home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/errorHandling/LibraryException.java
 /home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/rest/LibraryREST.java
+/home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/web/AddBookBean.java
 /home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/dto/BookDTO.java
 /home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/domain/Book.java
 /home/sanja/git/WEBLibrary/https:/github.com/Eke19/WEBLibrary.git/WEBLibrary/src/main/java/results/Result.java
